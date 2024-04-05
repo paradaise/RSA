@@ -1,0 +1,28 @@
+﻿<Window x:Class="RSAEncryptionApp.MainForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RSA Encryption App" Height="400" Width="600"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Label Content="Alice's Message:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AliceMessageTextBox" HorizontalAlignment="Left" Height="30" Margin="10,35,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button Content="Send Message" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="200" Click="SendMessageButton_Click"/>
+
+        <Label Content="Bob's Encrypted Message:" HorizontalAlignment="Left" Margin="330,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="BobEncryptedMessageTextBox" HorizontalAlignment="Left" Height="30" Margin="330,35,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Bob's Decrypted Message:" HorizontalAlignment="Left" Margin="330,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="BobDecryptedMessageTextBox" HorizontalAlignment="Left" Height="30" Margin="330,100,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button Content="Decrypt Bob's Message" HorizontalAlignment="Left" Margin="330,150,0,0" VerticalAlignment="Top" Width="200" Click="DecryptBobMessageButton_Click"/>
+
+        <Label Content="Bob's Message:" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="BobMessageTextBox" HorizontalAlignment="Left" Height="30" Margin="10,225,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button Content="Send Message" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="200" Click="ReplyButton_Click"/>
+
+        <Label Content="Alice's Encrypted Message:" HorizontalAlignment="Left" Margin="330,200,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AliceEncryptedMessageTextBox" HorizontalAlignment="Left" Height="30" Margin="330,225,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Alice's Decrypted Message:" HorizontalAlignment="Left" Margin="330,265,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AliceDecryptedMessageTextBox" HorizontalAlignment="Left" Height="30" Margin="330,290,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button Content="Decrypt Alice's Message" HorizontalAlignment="Left" Margin="330,330,0,0" VerticalAlignment="Top" Width="200" Click="DecryptAliceMessageButton_Click"/>
+    </Grid>
+</Window>
