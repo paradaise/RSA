@@ -1,6 +1,11 @@
 # RSA Encryption App
 
-![Результат работы](image.png)
+### Интерфейс программы
+<p align="center">
+  <img src="image.png" width="100%"/>
+</p>
+
+---
 
 ## Описание
 
