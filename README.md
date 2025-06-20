@@ -1,6 +1,6 @@
 # RSA Encryption App
 
-![Результат работы](../image.png)
+![Результат работы](.image.png)
 
 ## Описание
 
